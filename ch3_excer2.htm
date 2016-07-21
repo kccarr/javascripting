@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC *-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtm1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+
+<script language="javascript" type="text/javascript">
+
+var multi_table_num = Number(prompt("Enter the number of the multiplication table you want to see: ", 5));
+var multi_table_start = Number(prompt("Enter the starting number of multiplication table: ", 1));
+var multi_table_end = Number(prompt("Enter the starting number of multiplication table", 12));
+
+function timesTable(x, y, y){
+	
+	for (i = multi_table_start; i < multi_table_end+1; i++){
+		var total = multi_table_num * i;
+		document.write(multi_table_num + " * " + i + " = " + total + "<br />" );
+	}
+
+}
+
+timesTable(multi_table_num,multi_table_start,multi_table_end);
+
+</script>
+
+</body>
+</html>
